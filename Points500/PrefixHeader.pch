@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  Points500
+//
+//  Created by jiabenwei on 2017/10/23.
+//  Copyright © 2017年 jiabenwei. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Masonry/Masonry.h>
+#import "ReactiveCocoa.h"
+#import "JWConstant.h"
+#import "BlocksKit+UIKit.h"
+#import <BmobSDK/Bmob.h>
+#import "ProgressHUD.h"
+
+#endif /* PrefixHeader_pch */
